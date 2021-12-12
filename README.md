@@ -22,6 +22,11 @@ We are assigned to use the dataset to gain insights into why customers are leavi
 
 For more information on customer churn and why it is important, please refer to the introductory section of the [notebook](https://github.com/KOrfanakis/Predicting_Customer_Churn_Classification/blob/main/Analysis_Notebook.ipynb).
 
+<br>
+
+**Skills**: *Exploratory Data Analysis, Data Visualisation, Data Pre-processing (Feature Selection, Encoding Categorical Features, Feature Scaling), Addressing Class Imbalance, Model Tuning, Ensemble Learning.*
+
+**Models Used**: *Logistic Regression, Support Vector Machines, Random Forests, Gradient Boosting, XGBoost, and Light Gradient Boosting Machine.*
 
 <br>
 
