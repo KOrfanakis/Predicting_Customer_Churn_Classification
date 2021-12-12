@@ -1,4 +1,4 @@
-# Predicting Customer Churn
+# Predicting Customer Churn with Machine Learning
 
 <br>
 
@@ -20,17 +20,16 @@ Imagine that we are hired as data scientists by a major commercial bank with sev
 
 We are assigned to use the dataset to gain insights into why customers are leaving and build a Machine Learning (ML) model that predicts whether a customer is likely to churn or not.
 
-For more information on customer churn and why it is important, please refer to the introductory section of the notebook.
+For more information on customer churn and why it is important, please refer to the introductory section of the [notebook](https://github.com/KOrfanakis/Predicting_Customer_Churn_Classification/blob/main/Analysis_Notebook.ipynb).
 
 
 <br>
 
 # Business Objective
 
-The first question we need to ask our employers is how the bank expects to benefit from our model.
+The first question we need to ask our employers is how the bank expects to benefit from our model. Our employers answer that they will use our model’s output and create a list of customers more likely to churn. Then, the bank will offer additional services and special offers to those customers in an effort to increase customer satisfaction. The total amount will be equal to £1,000 per customer. The bank estimates that the gain from each customer retained will be approximately equal to £5,000 per customer, i.e. five times the initial investment.
 
-Our employers answer that they will use our model’s output and create a list of customers more likely to churn. Then, the bank will offer additional services and special offers to those customers in an effort to increase customer satisfaction. The total amount will be equal to £1,000 per customer. The bank estimates that the gain from each customer retained will be approximately equal to £5,000 per customer, i.e. five times the initial investment.  
-
+The next question to ask our employers is what the current solution looks like (if any). Our employers answer that a customer’s likelihood of churning is estimated manually by experts: a team gathers up-to-date information about a client and uses complex rules to come up with a prediction. This strategy is costly and time-consuming, and their estimates are not always excellent. Therefore, apart from the financial benefit, building a successful model will free up some time for the experts to work on more interesting and productive tasks. 
 
 <br>
 
@@ -53,14 +52,14 @@ We used eight classification algorithms to build our models. The algorithms are:
 7) [Light Gradient Boosting Machine](https://lightgbm.readthedocs.io/en/latest/), and <br>
 8) An ensemble of the above classifiers.
 
-After establishing a baseline, hyperparameter tuning was used to calculate their optimal performance on the training set (consisting of 8,000 customers). The best-performing model with an **AUC score ~0.865** is the optimised model based on **LGBM classifier**.
+After establishing a baseline, hyperparameter tuning was used to calculate their optimal performance on the training set (consisting of 8,000 customers). The best-performing model with an **AUC score of ~0.865** is the optimised model based on the **LGBM classifier**.
 
-The model was tested on unseen data, using customer instances that were not used for training. The test sample consists of 2,000 customers, mainting the ratio of churned/remained customers of the training set. Using the assumptions mentioned in the Business Objective section, the bank would make a **total profit of £900,000**! As a comparison, our baseline model (based on the Gaussian Naïve Bayes algorithm) yields a total profit of £456,000.
+The model was tested on unseen data, using customer instances not used for training. The test sample consists of 2,000 customers, maintaining the ratio of churned/remained customers of the training set. Using the assumptions mentioned in the Business Objective section, the bank would make a **total profit of £900,000**! As a comparison, our baseline model (based on the Gaussian Naïve Bayes algorithm) yields a total profit of £456,000.
 
 <br>
 
 # References
 
-A complete list of references is provided at the end of the notebook.
+A complete list of references is provided at the end of the notebook. I used the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Ed.)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) to construct the Business Objective section of this file.
 
 <br>
