@@ -1,4 +1,30 @@
-# Predicting Customer Churn with Machine Learning
+<div align="center">
+    <br>
+    <img src="Images\Repo_logo.svg" width="600" title="hover text">
+    <p>
+    <br>A Machine Learning classification project that predicts customer churn for a bank. 
+    </p>
+    <hr/>
+</div>
+
+<p align="center">
+    <a href="https://nbviewer.org/github/KOrfanakis/Predicting_Customer_Churn_Classification/blob/main/Analysis_Notebook.ipynb">
+        <img alt="Nbviewer" src="https://img.shields.io/badge/Render%20with%20-nbviewer-red.svg">
+    </a>
+    <a href="https://www.python.org/">
+        <img alt="Made With" src="https://img.shields.io/badge/Made%20with-Python-blue.svg">
+    </a>
+    <a href="https://jupyter.org/">
+        <img alt="Jupyter" src="https://img.shields.io/badge/And%20-Jupyter-orange.svg">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img alt="Licence" src="https://img.shields.io/badge/License-MIT-0298c3.svg">
+    </a>
+    <a>
+        <img alt="Star if useful" src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=seagreen">
+    </a>
+    <br/>
+</p>
 
 <br>
 
@@ -10,6 +36,7 @@
 * [Data](#data)
 * [Results :star:](#results)
 * [References](#references)
+* [Feedback](#feedback)
 <!--te-->
 
 <br>
@@ -68,3 +95,15 @@ The model was tested on unseen data, using customer instances not used for train
 A complete list of references is provided at the end of the notebook. I used the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Ed.)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) to construct the Business Objective section of this file.
 
 <br>
+
+# Feedback
+
+If you have any feedback or ideas to improve this project, feel free to contact me via:
+
+<a href="https://twitter.com/korfanakis">
+  <img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+
+<a href="https://uk.linkedin.com/in/korfanakis">
+  <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
